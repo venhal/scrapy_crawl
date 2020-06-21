@@ -10,5 +10,7 @@ import scrapy
 
 class QidianHotItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    name = scrapy.Field()       #小说名称
+    author = scrapy.Field()     #作者
+    type = scrapy.Field()       #类型
+    form = scrapy.Field()       #形式
